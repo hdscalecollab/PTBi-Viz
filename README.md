@@ -21,8 +21,8 @@
     <a href="https://github.com/hdscalecollab-ucsd/PTBi-Viz/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/hdscalecollab-ucsd/PTBi-Viz.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub pull requests">
-    <a href="http://hits.dwyl.io/hdscalecollab-ucsd/PTBi-Viz.svg?style=flat-square&logo=github&logoColor=white">
-    [![HitCount](http://hits.dwyl.io/hdscalecollab-ucsd/PTBi-Viz.svg)](http://hits.dwyl.io/hdscalecollab-ucsd/PTBi-Viz)
+    <a href="http://hits.dwyl.io/hdscalecollab-ucsd/PTBi-Viz.svg">
+    <img src="http://hits.dwyl.io/hdscalecollab-ucsd/PTBi-Viz.svg" alt="Github hit counts">
 </p>
       
 <p align="center">
