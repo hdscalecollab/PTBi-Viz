@@ -79,7 +79,7 @@ Programming resources used to build PTBi-Viz:
   - [C3.js](https://c3js.org/)
   - [leaflet.js](https://leafletjs.com/)
   - [Leaflet Control Geocoder](https://github.com/perliedman/leaflet-control-geocoder)
-  - [Leaflet.Sync]](https://github.com/jieter/Leaflet.Sync)
+  - [Leaflet.Sync](https://github.com/jieter/Leaflet.Sync)
   - [leaflet.groupedlayercontrol.js](https://github.com/ismyrnow/leaflet-groupedlayercontrol)
   - [Leaflet.Icon.Glyph.js](https://github.com/Leaflet/Leaflet.Icon.Glyph)
   - [leaflet-easyPrint.js](https://github.com/rowanwins/leaflet-easyPrint)
