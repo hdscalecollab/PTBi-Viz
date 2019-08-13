@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<h4 align="center">An interactive data exploration platform fore preterm birth.</h4>
+<h4 align="center">An interactive data exploration platform for understanding preterm birth.</h4>
 
 <p align="center">
     <a href="https://github.com/hdscalecollab-ucsd/PTBi-Viz/commits/master">
@@ -27,19 +27,21 @@
       
 <p align="center">
   <a href="#ptbi">PTBi</a> •
-  <a href="#installation">PTBi-Viz</a> •
-  <a href="#about">This Repo</a> •
-  <a href="#demo">Live Demo</a> •
-  <a href="#libs">Under the Hood</a> •
-  <a href="#support">Contact</a> •
+  <a href="#ptbi-viz">PTBi-Viz</a> •
+  <a href="#this-repository">This Repo</a> •
+  <a href="#live-demo">Live Demo</a> •
+  <a href="#under-the-hood">Under the Hood</a> •
+  <a href="#contact">Contact</a>
 </p>
 
+---
 
-## [What is PTBi ?](#ptbi)
+## PTBi
 
 The UCSF Preterm Birth Initiative (PTBi) conducts and funds research across the reproductive life course, domestically in California and globally in East Africa.
 
-## [What is PTBi-Viz ?](#ptbi-viz)
+
+## PTBi-Viz
 
 As a member of the PTBi project, our team at UC San Diego takes on the role to develop a web-based tool to visualize and explore the geographic characteristics of preterm birth in the study region - Fresno County, California, USA. 
 
@@ -52,16 +54,20 @@ Processes of designing and developing this PTBi-Viz tool is detailed in the jour
 - Jankowska MM, Yang J, Block J, Baer RJ, Jelliffe-Pawlowski LL, Flores S, et al. __["An Online Geographic Data Visualization Tool to Relate Preterm Births to Environmental Factors"](http://dx.doi.org/10.5888/pcd16.180498)__. Prev Chronic Dis 2019;16:180498. DOI: http://dx.doi.org/10.5888/pcd16.180498
 
 
-## [About this Repository](#about)
+## This-Repository
 
-Here we share some examples of the visualization component
+Here we share examples of the visualization components that are utilized in the PTBi-Viz application.
+You can find each folder corresponding to one of the visualization components in our tool; with a working example and in-line comments to describe the codes.
 
-## [Live Demo](#demo)
+
+## Live-Demo
 
 PTBi-Viz is live and free to access at: https://delphidata.ucsd.edu/ptbi/
 
 
-## [Frameworks and Libraries under the hood of PTBi-Viz](#libs)
+## Under-the-Hood
+Programming resources used to build PTBi-Viz:
+
 * Web Frameworks and other JS libraries:
   - [Node.js](https://nodejs.org/)
   - [Bootstrap](https://getbootstrap.com)
@@ -79,7 +85,7 @@ PTBi-Viz is live and free to access at: https://delphidata.ucsd.edu/ptbi/
   - [leaflet-easyPrint.js](https://github.com/rowanwins/leaflet-easyPrint)
 
 
-## [Support](#support)
+## Contact
 
 - If you are interested in the project or collaboration, please reach out to our team lead at: **majankowska@ucsd.edu**
 
