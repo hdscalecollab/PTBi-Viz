@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Map Sync Example from PTBi-Viz</title>
+
+	<!-- jQuery	-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+	<!-- d3 & jquery -->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+		}
+
+		/*
+		.map {
+			width: 50%;
+			height: 500px;
+		}
+*/
+		/* set the two maps side by side */
+		#map1 {
+			width: 50%;
+			height: 500px;
+		}
+
+		#map2 {
+			width: 50%;
+			height: 500px;
+			left: 50%;
+			top: 0;
+			position: absolute;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="map1"></div>
+	<div id="map2"></div>
+	
+	<!-- leaflet libs -->
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+	<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+	<!-- Customized JS -->
+	<script src='../common/js/L.Map.Sync.js'></script>
+	<script src="map_sync.js"></script>
+</body>
