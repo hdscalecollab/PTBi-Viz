@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://delphidata.ucsd.edu/ptbi/">
-    <img alt="PTBi-Viz" title="PTBi-Viz" src="img/PTBi-Viz-hp.PNG" width="600">
+    <img alt="PTBi-Viz" title="PTBi-Viz" src="common/img/PTBi-Viz-hp.PNG" width="700">
   </a>
 </p>
 
