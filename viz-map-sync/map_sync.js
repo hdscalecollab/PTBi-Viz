@@ -60,14 +60,6 @@ var controlLayers_right = L.control.layers(baseLayers_Right, null, {
 }).addTo(map2);
 map2.attributionControl.addAttribution('Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors');
 
-// Adding a GeoCoder using <L.Control.geocoder>
-L.Control.geocoder({
-	position: 'topleft'
-}).addTo(map1);
-L.Control.geocoder({
-	position: 'topleft'
-}).addTo(map2);
-
 //----------------------------------------------------//
 // Adding GeoJson layer from data, load it with jQuery
 // Setting up bounding actions/events

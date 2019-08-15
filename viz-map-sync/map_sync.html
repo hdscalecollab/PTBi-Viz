@@ -13,7 +13,6 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
-	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
 	<!-- d3 & jquery -->
 	<script src="https://d3js.org/d3.v5.min.js"></script>
@@ -23,12 +22,6 @@
 			margin: 0;
 		}
 
-		/*
-		.map {
-			width: 50%;
-			height: 500px;
-		}
-*/
 		/* set the two maps side by side */
 		#map1 {
 			width: 50%;
@@ -42,17 +35,15 @@
 			top: 0;
 			position: absolute;
 		}
-
 	</style>
 </head>
 
 <body>
 	<div id="map1"></div>
 	<div id="map2"></div>
-	
+
 	<!-- leaflet libs -->
 	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
-	<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 	<!-- Customized JS -->
 	<script src='../common/js/L.Map.Sync.js'></script>
 	<script src="map_sync.js"></script>
