@@ -1,0 +1,31 @@
+/* Centering a Column in a row */
+.center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.map_container {
+    width: 100%;
+    height: 500px;
+}
+
+/* text format*/
+.emptyText {
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 20px;
+    padding-top: 120px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.chart-title-md {
+    color: #666;
+    font-size: 2.0rem;
+    font-weight: 370;
+    padding: 7px 10px 4px;
+    text-align: center;
+}

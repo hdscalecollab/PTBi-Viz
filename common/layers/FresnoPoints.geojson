@@ -1,0 +1,250 @@
+{
+	"type": "FeatureCollection",
+	"name": "Fresno_Points",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1001,
+				"Var2": "Value201",
+				"Var3": "Value301",
+				"Var4": "Value401",
+				"Var5": 9001
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.65905,
+					36.83733
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1002,
+				"Var2": "Value202",
+				"Var3": "Value302",
+				"Var4": "Value402",
+				"Var5": 9002
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-120.33501,
+					36.15096
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1003,
+				"Var2": "Value203",
+				"Var3": "Value303",
+				"Var4": "Value403",
+				"Var5": 9003
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.784,
+					36.74197
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1004,
+				"Var2": "Value204",
+				"Var3": "Value304",
+				"Var4": "Value404",
+				"Var5": 9004
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.54833,
+					36.51261
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1005,
+				"Var2": "Value205",
+				"Var3": "Value305",
+				"Var4": "Value405",
+				"Var5": 9005
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.59823,
+					36.5688
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1006,
+				"Var2": "Value206",
+				"Var3": "Value306",
+				"Var4": "Value406",
+				"Var5": 9006
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.45145,
+					36.60789
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1007,
+				"Var2": "Value207",
+				"Var3": "Value307",
+				"Var4": "Value407",
+				"Var5": 9007
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.7649963,
+					36.8370782
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1008,
+				"Var2": "Value208",
+				"Var3": "Value308",
+				"Var4": "Value408",
+				"Var5": 9008
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.75547,
+					36.83959
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1009,
+				"Var2": "Value209",
+				"Var3": "Value309",
+				"Var4": "Value409",
+				"Var5": 9009
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.75967,
+					36.83992
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1010,
+				"Var2": "Value210",
+				"Var3": "Value310",
+				"Var4": "Value410",
+				"Var5": 9010
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.78155,
+					36.82531
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1011,
+				"Var2": "Value211",
+				"Var3": "Value311",
+				"Var4": "Value411",
+				"Var5": 9011
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.7832,
+					36.84246
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1012,
+				"Var2": "Value212",
+				"Var3": "Value312",
+				"Var4": "Value412",
+				"Var5": 9012
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.75216,
+					36.73601
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1013,
+				"Var2": "Value213",
+				"Var3": "Value313",
+				"Var4": "Value413",
+				"Var5": 9013
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-119.78931,
+					36.8611
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"ID": 1014,
+				"Var2": "Value214",
+				"Var3": "Value314",
+				"Var4": "Value414",
+				"Var5": 9014
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-120.237238,
+					36.13724021
+				]
+			}
+		}
+	]
+}
