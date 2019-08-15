@@ -1,4 +1,4 @@
-/* Centering a Column in a row */
+/* Styling the container */
 .center-block {
     float: none;
     display: block;
@@ -10,7 +10,7 @@
     height: 500px;
 }
 
-/* text format*/
+/* text formating */
 .emptyText {
     text-align: center;
     color: #a8a8a8;
@@ -28,4 +28,27 @@
     font-weight: 370;
     padding: 7px 10px 4px;
     text-align: center;
+}
+
+/* Leaflet extended CSS */
+.custom-popup .leaflet-popup-content-wrapper {
+    background: #2c3e50;
+    color: #fff;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-popup .leaflet-popup-tip-container {
+    width: 30px;
+    height: 15px;
+}
+
+.custom-popup .leaflet-popup-tip {
+    border-left: 15px solid #2c3e50;
+    border-right: 15x solid #2c3e50;
+    border-top: 15px solid #2c3e50;
 }
