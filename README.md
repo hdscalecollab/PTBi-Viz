@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://delphidata.ucsd.edu/ptbi/">
-    <img alt="PTBi-Viz" title="PTBi-Viz" src="img/PTBi-Viz-hp.PNG" width="600">
+    <img alt="PTBi-Viz" title="PTBi-Viz" src="common/img/PTBi-Viz-hp.PNG" width="700">
   </a>
 </p>
 
@@ -59,6 +59,13 @@ Processes of designing and developing this PTBi-Viz tool is detailed in the jour
 Here we share examples of the visualization components that are utilized in the PTBi-Viz application.
 You can find each folder corresponding to one of the visualization components in our tool; with a working example and in-line comments to describe the codes.
 
+| Folder | Description |
+| --- | --- |
+| `viz-chart-bar` | code examples for combining **map** with a **bar chart**. |
+| `viz-chart-multiBars` | code examples for combining **map** with a **stacked bar chart**. |
+| `viz-chart-pie` | code examples for combining **map** with a **pie chart**. |
+| `viz-map-sync` | code examples for setting up **two synchronizing maps** side-by-side. |
+| `viz-map-table` | code examples for combining **map** with a **table** to display more attributes. |
 
 ## Live-Demo
 
@@ -79,7 +86,7 @@ Programming resources used to build PTBi-Viz:
   - [C3.js](https://c3js.org/)
   - [leaflet.js](https://leafletjs.com/)
   - [Leaflet Control Geocoder](https://github.com/perliedman/leaflet-control-geocoder)
-  - [Leaflet.Sync](https://github.com/jieter/Leaflet.Sync)
+  - [Leaflet.Sync]](https://github.com/jieter/Leaflet.Sync)
   - [leaflet.groupedlayercontrol.js](https://github.com/ismyrnow/leaflet-groupedlayercontrol)
   - [Leaflet.Icon.Glyph.js](https://github.com/Leaflet/Leaflet.Icon.Glyph)
   - [leaflet-easyPrint.js](https://github.com/rowanwins/leaflet-easyPrint)
