@@ -6,48 +6,50 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Map-Table Example from PTBi-Viz</title>
+	<title>Map-Pie Example from PTBi-Viz</title>
 
 	<!-- Bootstrap & jQuery	-->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- d3 & c3 -->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="../common/js/c3.min.js"></script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.css" />
 	<link rel="stylesheet" href="../common/css/leaflet.groupedlayercontrol.min.css" />
-	<link href="../common/css/style.css" rel="stylesheet">
-
-	<!-- d3 & jquery -->
-	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<link rel="stylesheet" href="../common/css/c3.min.css" />
+	<link rel="stylesheet" href="../common/css/style.css" />
 </head>
 
 <body>
 	<div class="container-fluid">
 		<div class="row">
+			<!-- Row 1 : Map + Chart*2 Container -->
 			<div class="col-sm-12 col-md-12 col-lg-12 center-block">
-				<div class="col-sm-6 col-md-6 col-lg-6" style='float: left'>
-					<div class='map_container custom-popup' id="map1"></div>
+				<div class="col-sm-4 col-md-4 col-lg-4" style='float: left'>
+					<div class="chart-title-md">Fresno Map</div>
+					<div id="map1" class='map_container_short' align="center"></div>
 				</div>
-				<div class="col-sm-6 col-md-6 col-lg-6" style='float: right'>
-					<div id='dataTable_title' class="chart-title-md capitalize"><span> Selected Point : </span></div>
-					<div class="table-responsive">
-						<div id="toolbar">
-							<button id="table_clean" class="btn btn-primary">Reset</button>
+
+				<div class="col-sm-8 col-md-8 col-lg-8" style='float: right'>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6 chart-box-border-left">
+							<div class="chart-title-md">Your Chart 1</div>
+							<div id='pie1_title' class="chart-title-small"><span></span></div>
+							<div id='pie1' align="center"></div>
 						</div>
-						<table id="table" class="table table-striped">
-							<thead>
-								<tr>
-									<th data-field="att" data-halign="center" style="text-align: center">Attribute</th>
-									<th data-field="val" data-halign="center" style="text-align: center">Value</th>
-								</tr>
-							</thead>
-						</table>
+						<div class="col-sm-6 col-md-6 col-lg-6 chart-box-border-left-thin">
+							<div class="chart-title-md">Your Chart 2</div>
+							<div id='pie2_title' class="chart-title-small"><span></span></div>
+							<div id='pie2' align="center"></div>
+						</div>
 					</div>
-					<div id="dataTable_empty_text" class="emptyText"><span>[ click on a Point to see additional data ]</span></div>
 				</div>
 			</div>
+			<!-- /. Map + Chart*2 Container -->
 		</div>
 	</div>
 
@@ -56,5 +58,5 @@
 	<!-- Other JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
 	<script src='../common/js/leaflet.groupedlayercontrol.min.js'></script>
-	<script src="map_table.js"></script>
+	<script src="map_pie.js"></script>
 </body>

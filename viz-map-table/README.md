@@ -8,12 +8,11 @@
   </a>
 </p>
 
-<br>
 
 <table>
 <tr>
 <td> 
-<b><i>viz-map-table</i></b> is the visualization component combining a interactive map with a table to display extra attributes of the selected feature at the same time. 
+<b><i>viz-map-table</i></b> is the visualization component combining an interactive map with a table to display extra attributes of the selected feature at the same time. 
 <br>
 <br>
 We found this function very useful for <b>displaying features with extended amount of attributes</b> (such as data for each hospital/clinic location).
