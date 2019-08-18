@@ -1,5 +1,5 @@
 <h2 align="center">
- <p>PTBi-Viz: <i>viz-map-pit</i></p>
+ <p>PTBi-Viz: <i>viz-map-pie</i></p>
 </h2>
 
 <p align="center">
